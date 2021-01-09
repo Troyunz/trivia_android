@@ -4,4 +4,4 @@ Simple Quiz app with more style and colours.
 
 Here's a sample:
 
-![](trivia.png)
+<img src="trivia.png" width=400>

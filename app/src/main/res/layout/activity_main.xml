@@ -59,7 +59,7 @@
         android:layout_marginRight="40dp"
         android:text="@string/true_text"
         app:layout_constraintEnd_toStartOf="@+id/false_button"
-        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/previous_button"
         app:layout_constraintTop_toBottomOf="@+id/cardView2" />
 
@@ -68,11 +68,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/false_text"
         app:layout_constraintEnd_toStartOf="@+id/next_button"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2"
-        tools:text="@string/false_text" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
 
     <ImageButton
         android:id="@+id/previous_button"
